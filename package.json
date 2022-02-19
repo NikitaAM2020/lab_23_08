@@ -1,0 +1,19 @@
+{
+  "name": "my_projrct_23_08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaAM2020/lab_23_08.git"
+  },
+  "author": "nikitaam2020",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NikitaAM2020/lab_23_08/issues"
+  },
+  "homepage": "https://github.com/NikitaAM2020/lab_23_08#readme"
+}
