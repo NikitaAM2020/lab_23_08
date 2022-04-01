@@ -19,7 +19,6 @@ class Project {
     }
 }
 
-// ...............................................................................................
 
 function add_project (name, address, id) {
 
@@ -44,7 +43,6 @@ function remove_hospital (id) {
 
 }
 
-// ...............................................................................................
 
 function get_projects_list()
     { return projects_list; }
@@ -73,7 +71,6 @@ function get_project_by_id (id) {
 
 }
 
-// ...............................................................................................
 
 function edit_project (id, new_name, new_address) {
 
@@ -91,7 +88,6 @@ function edit_project (id, new_name, new_address) {
 
 }
 
-// ...............................................................................................
 
 function find_projects (search) {
 
@@ -115,7 +111,6 @@ function find_projects (search) {
 
 }
 
-// ...............................................................................................
 
 function print_projects_list() {
 

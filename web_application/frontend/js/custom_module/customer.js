@@ -22,7 +22,6 @@ class Customer {
     }
 }
 
-// ...............................................................................................
 
 function add_customer (name, age, project, id) {
 
@@ -47,13 +46,11 @@ function remove_customer (id) {
 
 }
 
-// ...............................................................................................
 
 
 function get_customers_list()
     { return customers_list; }
 
-// Задаємо список усіх лікарів
 function set_customers_list (data) {
 
     if (!data || data.length < 1) { return; }
@@ -66,7 +63,6 @@ function set_customers_list (data) {
     }
 }
 
-// Повертає лікаря по його id
 function get_customer_by_id (id) {
 
     for (let z = 0; z < customers_list.length; z++) {
@@ -80,7 +76,6 @@ function get_customer_by_id (id) {
 
 }
 
-// ...............................................................................................
 
 function edit_customer (id, new_name, new_age, new_project) {
 
@@ -99,7 +94,6 @@ function edit_customer (id, new_name, new_age, new_project) {
 
 }
 
-// ...............................................................................................
 
 function find_customers (search) {
 
@@ -123,7 +117,6 @@ function find_customers (search) {
 
 }
 
-// ...............................................................................................
 
 function print_customers_list() {
 
